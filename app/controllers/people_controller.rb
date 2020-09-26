@@ -26,5 +26,6 @@ class PeopleController < ApplicationController
       :zipcode,
       :address_type
     ])
+    puts params[:addresses_attributes]
   end
 end
